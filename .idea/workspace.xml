@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7dfbeab-0c6b-482f-b8fd-7f2cb94b6942" name="Default Changelist" comment="" />
+    <list default="true" id="f7dfbeab-0c6b-482f-b8fd-7f2cb94b6942" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pages/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tests/LogInPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/LogInPageTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1g8ZJ57VPfiFsCEz763DBfB7Yfr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -39,7 +52,60 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LogInPageTest.verifyLogInStandardUser">
+  <component name="RunManager" selected="TestNG./Users/kuba/Projects/TLA/Selenium/Projects (IntelliJ)/SauceDemo/src/test/runners/loginPage.xml">
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SauceDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomePageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.validatePageHeader" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SauceDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomePageTest" />
+      <option name="METHOD_NAME" value="validatePageHeader" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogInPageTest.verifyLockedUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SauceDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LogInPageTest" />
+      <option name="METHOD_NAME" value="verifyLockedUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LogInPageTest.verifyLogInStandardUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceDemo" />
       <extension name="coverage">
@@ -58,18 +124,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogInPageTest.verifyTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/kuba/Projects/TLA/Selenium/Projects (IntelliJ)/SauceDemo/src/test/runners/loginPage.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LogInPageTest" />
-      <option name="METHOD_NAME" value="verifyTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/runners/loginPage.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -78,8 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/kuba/Projects/TLA/Selenium/Projects (IntelliJ)/SauceDemo/src/test/runners/loginPage.xml" />
+        <item itemvalue="TestNG.LogInPageTest.verifyLockedUser" />
+        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.HomePageTest.validatePageHeader" />
         <item itemvalue="TestNG.LogInPageTest.verifyLogInStandardUser" />
-        <item itemvalue="TestNG.LogInPageTest.verifyTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -110,22 +171,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="701" y="35" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597506807692" />
-    <state width="1878" height="199" key="GridCell.Tab.0.bottom" timestamp="1597507187580">
+    <state width="1878" height="199" key="GridCell.Tab.0.bottom" timestamp="1597513599381">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597507187580" />
-    <state width="1878" height="199" key="GridCell.Tab.0.center" timestamp="1597507187576">
+    <state width="1878" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597513599381" />
+    <state width="1878" height="199" key="GridCell.Tab.0.center" timestamp="1597513599379">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597507187576" />
-    <state width="1878" height="199" key="GridCell.Tab.0.left" timestamp="1597507187575">
+    <state width="1878" height="199" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597513599379" />
+    <state width="1878" height="199" key="GridCell.Tab.0.left" timestamp="1597513599377">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597507187575" />
-    <state width="1878" height="199" key="GridCell.Tab.0.right" timestamp="1597507187579">
+    <state width="1878" height="199" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597513599377" />
+    <state width="1878" height="199" key="GridCell.Tab.0.right" timestamp="1597513599380">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597507187579" />
+    <state width="1878" height="199" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597513599380" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1597512120407">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597512120407" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1597512120405">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597512120405" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1597512120403">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597512120403" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1597512120406">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597512120406" />
     <state x="448" y="123" key="SettingsEditor" timestamp="1597499506302">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

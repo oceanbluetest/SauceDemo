@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Login Page">
+    <test name="Standard user test">
+        <classes>
+            <class name="tests.LogInPageTest">
+                <methods>
+                    <include name="verifyLogInStandardUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Locked user test">
+        <classes>
+            <class name="tests.LogInPageTest">
+                <methods>
+                    <include name="verifyLockedUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

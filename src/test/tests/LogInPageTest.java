@@ -26,4 +26,10 @@ public class LogInPageTest extends BaseTest {
         logInPage.logIn("standard");
         Assert.assertEquals(getDriver().getCurrentUrl(), "https://www.saucedemo.com/inventory.html");
     }
+
+    @Test
+    public void verifyLockedUser(){
+        logInPage.logIn("locked");
+        Assert.assertEquals(logInPage.errorMsg.getText(), "Epic sadface: Sorry, this user has been locked out.");
+    }
 }

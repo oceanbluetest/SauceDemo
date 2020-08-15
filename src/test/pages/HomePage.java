@@ -18,4 +18,6 @@ public class HomePage extends BasePage {
     @FindBy(className = "product_label")
     public WebElement headerText;
 
+
+
 }

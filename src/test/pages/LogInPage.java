@@ -24,6 +24,9 @@ public class LogInPage extends BasePage {
     @FindBy(id = "login-button")
     public WebElement logInBtn;
 
+    @FindBy(xpath = "//h3[@data-test='error']")
+    public WebElement errorMsg;
+
     public void logIn(String userType){
         String username = "";
         String password = "secret_sauce";
@@ -31,6 +34,9 @@ public class LogInPage extends BasePage {
         switch (userType){
             case "standard":
                 username = "standard_user";
+                break;
+            case "locked":
+                username = "locked_out_user";
                 break;
             default:
                 System.out.println("Invalid username");
