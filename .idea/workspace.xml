@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7dfbeab-0c6b-482f-b8fd-7f2cb94b6942" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1g8ZJ57VPfiFsCEz763DBfB7Yfr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LogInPageTest.verifyLogInStandardUser">
+    <configuration name="LogInPageTest.verifyLogInStandardUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SauceDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LogInPageTest" />
+      <option name="METHOD_NAME" value="verifyLogInStandardUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogInPageTest.verifyTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SauceDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LogInPageTest" />
+      <option name="METHOD_NAME" value="verifyTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LogInPageTest.verifyLogInStandardUser" />
+        <item itemvalue="TestNG.LogInPageTest.verifyTitle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7dfbeab-0c6b-482f-b8fd-7f2cb94b6942" name="Default Changelist" comment="" />
+      <created>1597498104642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597498104642</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="701" y="35" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597506807692">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="701" y="35" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597506807692" />
+    <state width="1878" height="199" key="GridCell.Tab.0.bottom" timestamp="1597507187580">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597507187580" />
+    <state width="1878" height="199" key="GridCell.Tab.0.center" timestamp="1597507187576">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="199" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597507187576" />
+    <state width="1878" height="199" key="GridCell.Tab.0.left" timestamp="1597507187575">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="199" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597507187575" />
+    <state width="1878" height="199" key="GridCell.Tab.0.right" timestamp="1597507187579">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="199" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597507187579" />
+    <state x="448" y="123" key="SettingsEditor" timestamp="1597499506302">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="123" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597499506302" />
+  </component>
+</project>
