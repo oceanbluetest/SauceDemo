@@ -4,7 +4,11 @@
     <list default="true" id="f7dfbeab-0c6b-482f-b8fd-7f2cb94b6942" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pages/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/runners/loginPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/runners/loginPage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LogInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LogInPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LogInPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LogInPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.validatePageHeader" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceDemo" />
       <extension name="coverage">
         <pattern>
@@ -77,9 +81,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HomePageTest" />
-      <option name="METHOD_NAME" value="validatePageHeader" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="tests.LogInPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -104,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogInPageTest.verifyLogInStandardUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInPageTest.verifyTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceDemo" />
       <extension name="coverage">
         <pattern>
@@ -114,7 +117,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.LogInPageTest" />
-      <option name="METHOD_NAME" value="verifyLogInStandardUser" />
+      <option name="METHOD_NAME" value="verifyTitle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,10 +138,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/kuba/Projects/TLA/Selenium/Projects (IntelliJ)/SauceDemo/src/test/runners/loginPage.xml" />
+        <item itemvalue="TestNG.LogInPageTest" />
+        <item itemvalue="TestNG.LogInPageTest.verifyTitle" />
         <item itemvalue="TestNG.LogInPageTest.verifyLockedUser" />
         <item itemvalue="TestNG.HomePageTest" />
-        <item itemvalue="TestNG.HomePageTest.validatePageHeader" />
-        <item itemvalue="TestNG.LogInPageTest.verifyLogInStandardUser" />
       </list>
     </recent_temporary>
   </component>
@@ -169,22 +172,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="701" y="35" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597506807692" />
-    <state width="1878" height="199" key="GridCell.Tab.0.bottom" timestamp="1597514215803">
+    <state width="1878" height="199" key="GridCell.Tab.0.bottom" timestamp="1597517775227">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597514215803" />
-    <state width="1878" height="199" key="GridCell.Tab.0.center" timestamp="1597514215800">
+    <state width="1878" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597517775227" />
+    <state width="1878" height="199" key="GridCell.Tab.0.center" timestamp="1597517775224">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597514215800" />
-    <state width="1878" height="199" key="GridCell.Tab.0.left" timestamp="1597514215799">
+    <state width="1878" height="199" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597517775224" />
+    <state width="1878" height="199" key="GridCell.Tab.0.left" timestamp="1597517775221">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597514215799" />
-    <state width="1878" height="199" key="GridCell.Tab.0.right" timestamp="1597514215801">
+    <state width="1878" height="199" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597517775221" />
+    <state width="1878" height="199" key="GridCell.Tab.0.right" timestamp="1597517775226">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597514215801" />
+    <state width="1878" height="199" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597517775226" />
     <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1597512120407">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

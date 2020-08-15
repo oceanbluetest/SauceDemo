@@ -7,6 +7,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -23,12 +24,13 @@ public class BaseTest {
     private static String propertyPath = "src/main/resources/config/configuration.properties";
 
     ExtentReports extentReports;
-    ExtentTest extentTest;
+    protected ExtentTest extentTest;
+    String suiteName = "";
 
-    @BeforeSuite
-    public void startReport(){
+    @BeforeSuite(alwaysRun = true)
+    public void startReport(ITestContext iTestContext){
         extentReports = ExtentReportsManager.loadConfig();
-
+        suiteName = iTestContext.getCurrentXmlTest().getSuite().getName();
     }
 
     @BeforeMethod(alwaysRun = true)
@@ -37,6 +39,7 @@ public class BaseTest {
 
         extentTest = extentReports.startTest((this.getClass().getSimpleName() + " : " + method.getName()), method.getName());
         extentTest.assignAuthor("Tester");
+        extentTest.assignCategory(suiteName);
 
         extentTest.log(LogStatus.INFO, result.getMethod().getDescription());
 
@@ -44,11 +47,12 @@ public class BaseTest {
     }
 
     @AfterMethod(alwaysRun = true)
-    public void tearDown(){
+    public void tearDown(ITestResult result){
+        ExtentReportsManager.logExtent(extentReports, extentTest, result);
         getDriver().quit();
     }
 
-    @AfterSuite
+    @AfterSuite(alwaysRun = true)
     public void closeReport(){
         extentReports.flush();
         extentReports.close();

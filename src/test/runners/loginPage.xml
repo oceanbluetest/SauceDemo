@@ -7,14 +7,6 @@
             <class name="tests.LogInPageTest">
                 <methods>
                     <include name="verifyLogInStandardUser"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test name="Locked user test">
-        <classes>
-            <class name="tests.LogInPageTest">
-                <methods>
                     <include name="verifyLockedUser"/>
                 </methods>
             </class>
