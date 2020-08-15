@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7dfbeab-0c6b-482f-b8fd-7f2cb94b6942" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pages/LogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/tests/LogInPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/LogInPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,22 +169,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="701" y="35" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597506807692" />
-    <state width="1878" height="199" key="GridCell.Tab.0.bottom" timestamp="1597513599381">
+    <state width="1878" height="199" key="GridCell.Tab.0.bottom" timestamp="1597514215803">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597513599381" />
-    <state width="1878" height="199" key="GridCell.Tab.0.center" timestamp="1597513599379">
+    <state width="1878" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597514215803" />
+    <state width="1878" height="199" key="GridCell.Tab.0.center" timestamp="1597514215800">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597513599379" />
-    <state width="1878" height="199" key="GridCell.Tab.0.left" timestamp="1597513599377">
+    <state width="1878" height="199" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597514215800" />
+    <state width="1878" height="199" key="GridCell.Tab.0.left" timestamp="1597514215799">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597513599377" />
-    <state width="1878" height="199" key="GridCell.Tab.0.right" timestamp="1597513599380">
+    <state width="1878" height="199" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597514215799" />
+    <state width="1878" height="199" key="GridCell.Tab.0.right" timestamp="1597514215801">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597513599380" />
+    <state width="1878" height="199" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597514215801" />
     <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1597512120407">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -207,5 +205,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="448" y="123" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597499506302" />
+    <state x="668" y="155" key="refactoring.ChangeSignatureDialog" timestamp="1597516595362">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="668" y="155" key="refactoring.ChangeSignatureDialog/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597516595362" />
   </component>
 </project>

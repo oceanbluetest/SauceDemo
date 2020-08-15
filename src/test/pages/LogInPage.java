@@ -43,6 +43,7 @@ public class LogInPage extends BasePage {
         }
         sendKeys(usernameField, username);
         sendKeys(passwordField, password);
+        //clicking to go to next window
         click(logInBtn);
     }
 

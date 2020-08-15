@@ -2,16 +2,19 @@ package tests;
 
 import base.BaseTest;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.LogInPage;
+
+import java.lang.reflect.Method;
 
 public class LogInPageTest extends BaseTest {
     LogInPage logInPage;
 
     @BeforeMethod(alwaysRun = true)
-    public void setUp(){
-        super.setUp();
+    public void setUp(Method method, ITestResult result){
+        super.setUp(method, result);
         logInPage = new LogInPage(getDriver());
     }
 
