@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f7dfbeab-0c6b-482f-b8fd-7f2cb94b6942" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/runners/loginPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/runners/loginPage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LogInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LogInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tests/LogInPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/LogInPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/extentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/extentReports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LogInPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LogInPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,13 +125,27 @@
     <configuration name="/Users/kuba/Projects/TLA/Selenium/Projects (IntelliJ)/SauceDemo/src/test/runners/loginPage.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceDemo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/runners/loginPage.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG./Users/kuba/Projects/TLA/Selenium/Projects (IntelliJ)/SauceDemo/src/test/runners/loginPage.xml" />
+      <item itemvalue="TestNG.HomePageTest" />
+      <item itemvalue="TestNG.LogInPageTest" />
+      <item itemvalue="TestNG.LogInPageTest.verifyLockedUser" />
+      <item itemvalue="TestNG.LogInPageTest.verifyTitle" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/kuba/Projects/TLA/Selenium/Projects (IntelliJ)/SauceDemo/src/test/runners/loginPage.xml" />
@@ -168,26 +179,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="424" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597518343438">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="424" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597518343438" />
     <state x="701" y="35" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597506807692">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="701" y="35" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597506807692" />
-    <state width="1878" height="199" key="GridCell.Tab.0.bottom" timestamp="1597517775227">
+    <state width="1878" height="199" key="GridCell.Tab.0.bottom" timestamp="1597518254062">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597517775227" />
-    <state width="1878" height="199" key="GridCell.Tab.0.center" timestamp="1597517775224">
+    <state width="1878" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597518254062" />
+    <state width="1878" height="199" key="GridCell.Tab.0.center" timestamp="1597518254058">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597517775224" />
-    <state width="1878" height="199" key="GridCell.Tab.0.left" timestamp="1597517775221">
+    <state width="1878" height="199" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597518254058" />
+    <state width="1878" height="199" key="GridCell.Tab.0.left" timestamp="1597518254056">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597517775221" />
-    <state width="1878" height="199" key="GridCell.Tab.0.right" timestamp="1597517775226">
+    <state width="1878" height="199" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597518254056" />
+    <state width="1878" height="199" key="GridCell.Tab.0.right" timestamp="1597518254060">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597517775226" />
+    <state width="1878" height="199" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597518254060" />
     <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1597512120407">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

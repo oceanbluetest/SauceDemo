@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Page]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Standard user test(failed)">
+    <classes>
+      <class name="tests.LogInPageTest">
+        <methods>
+          <include name="closeReport"/>
+          <include name="startReport"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyLockedUser"/>
+        </methods>
+      </class> <!-- tests.LogInPageTest -->
+    </classes>
+  </test> <!-- Standard user test(failed) -->
+</suite> <!-- Failed suite [Login Page] -->

@@ -24,13 +24,13 @@ public class LogInPageTest extends BaseTest {
         Assert.assertEquals(getDriver().getTitle(), "Swag Labs");
     }
 
-    @Test
+    @Test(description = "Testing standard user")
     public void verifyLogInStandardUser(){
         logInPage.logIn("standard");
         Assert.assertEquals(getDriver().getCurrentUrl(), "https://www.saucedemo.com/inventory.html");
     }
 
-    @Test
+    @Test(description = "Testing Locked User role")
     public void verifyLockedUser(){
         logInPage.logIn("locked");
         Assert.assertEquals(logInPage.errorMsg.getText(), "Epic sadface: Sorry, this user has been locked out.");
