@@ -1,6 +1,7 @@
 package tests;
 
 import base.BaseTest;
+import com.relevantcodes.extentreports.LogStatus;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.BeforeMethod;
@@ -28,11 +29,15 @@ public class LogInPageTest extends BaseTest {
     public void verifyLogInStandardUser(){
         logInPage.logIn("standard");
         Assert.assertEquals(getDriver().getCurrentUrl(), "https://www.saucedemo.com/inventory.html");
+        extentTest.log(LogStatus.INFO,"current URL: " + getDriver().getCurrentUrl());
+        extentTest.log(LogStatus.INFO, "expected URL: https://www.saucedemo.com/inventory.html");
+        screenshot.takeScreenshotAndLog();
     }
 
     @Test(description = "Testing Locked User role")
     public void verifyLockedUser(){
         logInPage.logIn("locked");
         Assert.assertEquals(logInPage.errorMsg.getText(), "Epic sadface: Sorry, this user has been locked out.");
+        screenshot.takeScreenshotAndLog();
     }
 }

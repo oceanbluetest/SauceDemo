@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f7dfbeab-0c6b-482f-b8fd-7f2cb94b6942" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/reports/extent-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/reports/extent-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/tests/LogInPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/LogInPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reports/extent-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/reports/extent-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/extentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/extentReports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LogInPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LogInPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,24 +56,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/kuba/Projects/TLA/Selenium/Projects (IntelliJ)/SauceDemo/src/test/runners/loginPage.xml">
-    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SauceDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HomePageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.LogInPageTest.verifyLogInStandardUser">
     <configuration name="LogInPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceDemo" />
       <extension name="coverage">
@@ -97,6 +85,24 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.LogInPageTest" />
       <option name="METHOD_NAME" value="verifyLockedUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogInPageTest.verifyLogInStandardUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SauceDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LogInPageTest" />
+      <option name="METHOD_NAME" value="verifyLogInStandardUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,18 +147,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG./Users/kuba/Projects/TLA/Selenium/Projects (IntelliJ)/SauceDemo/src/test/runners/loginPage.xml" />
-      <item itemvalue="TestNG.HomePageTest" />
       <item itemvalue="TestNG.LogInPageTest" />
       <item itemvalue="TestNG.LogInPageTest.verifyLockedUser" />
       <item itemvalue="TestNG.LogInPageTest.verifyTitle" />
+      <item itemvalue="TestNG.LogInPageTest.verifyLogInStandardUser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LogInPageTest.verifyLogInStandardUser" />
         <item itemvalue="TestNG./Users/kuba/Projects/TLA/Selenium/Projects (IntelliJ)/SauceDemo/src/test/runners/loginPage.xml" />
         <item itemvalue="TestNG.LogInPageTest" />
         <item itemvalue="TestNG.LogInPageTest.verifyTitle" />
         <item itemvalue="TestNG.LogInPageTest.verifyLockedUser" />
-        <item itemvalue="TestNG.HomePageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,22 +193,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="701" y="35" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597506807692" />
-    <state width="1878" height="199" key="GridCell.Tab.0.bottom" timestamp="1597518254062">
+    <state width="1878" height="199" key="GridCell.Tab.0.bottom" timestamp="1597584580876">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597518254062" />
-    <state width="1878" height="199" key="GridCell.Tab.0.center" timestamp="1597518254058">
+    <state width="1878" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597584580876" />
+    <state width="1878" height="199" key="GridCell.Tab.0.center" timestamp="1597584580873">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597518254058" />
-    <state width="1878" height="199" key="GridCell.Tab.0.left" timestamp="1597518254056">
+    <state width="1878" height="199" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597584580873" />
+    <state width="1878" height="199" key="GridCell.Tab.0.left" timestamp="1597584580872">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597518254056" />
-    <state width="1878" height="199" key="GridCell.Tab.0.right" timestamp="1597518254060">
+    <state width="1878" height="199" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597584580872" />
+    <state width="1878" height="199" key="GridCell.Tab.0.right" timestamp="1597584580874">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="199" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597518254060" />
+    <state width="1878" height="199" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597584580874" />
     <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1597512120407">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

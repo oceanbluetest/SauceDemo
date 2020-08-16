@@ -72,7 +72,7 @@ public class BasePage {
 
     public void moveIntoView(WebElement element){
         try{
-            ((JavascriptExecutor)driver).executeScript("arguments[0].schrollIntoView(true);", element);
+            ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", element);
         }catch (Exception e){
             e.printStackTrace();
         }

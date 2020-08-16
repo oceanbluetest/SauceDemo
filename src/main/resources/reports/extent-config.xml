@@ -3,7 +3,7 @@
     <configuration>
         <encoding>UTF-8</encoding>
         <protocol>https</protocol>
-        <theme>dark</theme>
+        <theme>light</theme>
         <documentTitle>TLA</documentTitle>
         <reportName>Sauce Demo Tests</reportName>
         <reportHeadline></reportHeadline>

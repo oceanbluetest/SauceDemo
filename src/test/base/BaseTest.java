@@ -15,6 +15,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import utils.ConfigReader;
 import utils.ExtentReportsManager;
+import utils.Screenshot;
 
 import java.lang.reflect.Method;
 import java.util.concurrent.TimeUnit;
@@ -25,6 +26,7 @@ public class BaseTest {
 
     ExtentReports extentReports;
     protected ExtentTest extentTest;
+    protected Screenshot screenshot;
     String suiteName = "";
 
     @BeforeSuite(alwaysRun = true)
@@ -40,8 +42,9 @@ public class BaseTest {
         extentTest = extentReports.startTest((this.getClass().getSimpleName() + " : " + method.getName()), method.getName());
         extentTest.assignAuthor("Tester");
         extentTest.assignCategory(suiteName);
-
         extentTest.log(LogStatus.INFO, result.getMethod().getDescription());
+
+        screenshot = new Screenshot(getDriver(), extentTest);
 
         getDriver().get(ConfigReader.readProperty("url", propertyPath));
     }
